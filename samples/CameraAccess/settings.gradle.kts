@@ -38,7 +38,6 @@ dependencyResolutionManagement {
   repositories {
     google()
     mavenCentral()
-    }
   }
 }
 
