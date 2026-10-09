@@ -34,11 +34,13 @@ val localProperties =
     }
 
 dependencyResolutionManagement {
-  repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-  repositories {
-    google()
-    mavenCentral()
-  }
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
 }
+
+rootProject.name = "CameraAccess"
 
 include(":app")
