@@ -41,6 +41,4 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "CameraAccess"
-
 include(":app")
